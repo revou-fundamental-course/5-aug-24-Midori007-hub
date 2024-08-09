@@ -7,6 +7,45 @@
         <link rel="stylesheet" href="css\styles.css">
     </head>
     <body>
+        <header>
+            <h1>Kalkulator BMI</h1>
+        </header>
+        <main>
+            <article>
+                <p>Ini merupakan kalkulator BMI</p>
+            </article>
+            <form>
+                <div>
+                    <legend>Jenis Kelamin</legend>
+                    <input type="radio" id="pria" name="jenis-kelamin" value="pria" required><label for="pria">Pria</label>
+                    <input type="radio" id="wanita" name="jenis-kelamin" value="wanita" required><label for="wanita">Wanita</label>
+                </div>
+                <div>
+                    <label for="bb">Berat badan Anda? (kg)</label>
+                    <input type="number" name="berat-badan" id="bb" min="1" required>
+                </div>
+                <div>
+                    <label for="usia">Usia Anda? (tahun)</label>
+                    <input type="number" name="usia" id="usia" min="1" max="100" required>
+                </div>
+                <div>
+                    <label for="tb">Tinggi badan Anda? (cm)</label>
+                    <input type="number" name="tinggi-badan" id="tb" min="1" max="500" required>
+                </div>
+                <div>
+                    <input type="Submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+            <article>
 
+            </article>
+            <content>
+
+            </content>
+        </main>
+        <footer>
+
+        </footer>
     </body>
 </html>
