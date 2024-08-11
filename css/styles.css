@@ -6,7 +6,13 @@
 }
 
 header, article {
-    padding-left: 10px;
+    
+    
+    margin-right: 30px;
+}
+
+article {
+    text-align: justify;
 }
 
 form {
