@@ -1,0 +1,23 @@
+ body {
+    border: 1px solid red;
+    padding-left: 20px;
+    margin: auto;
+    width: 60%;
+}
+
+form {
+    background-color: rgb(230, 230, 255);
+}
+
+input[type="number"] {
+    width: 60%;
+    height: 30px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+.satu {
+    display: block;
+}
